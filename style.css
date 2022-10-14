@@ -47,7 +47,26 @@ body{
 
 .header-link:hover{
     font-weight: 700;
-    text-decoration: underline;
+}
+
+.header-link-underline1:hover::after{
+    content: '';
+    width: 55px;
+    height: 1px;
+    position: absolute;
+    background-color: #2B292D;
+    top: 80px;
+    right: 935px;
+}
+
+.header-link-underline2:hover::after{
+    content: '';
+    width: 65px;
+    height: 1px;
+    position: absolute;
+    background-color: #2B292D;
+    top: 80px;
+    right: 845px;
 }
 
 .ul{

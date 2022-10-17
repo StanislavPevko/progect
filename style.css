@@ -180,13 +180,6 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding-left: 251px;
-}
-
-.section3-nav{
-    max-width: 1139.77px;
-    margin: 30px 445px;
-    justify-content: center;
 }
 
 .section3-ul{
@@ -194,9 +187,107 @@ body{
     justify-content: space-around;
     align-items: center;
     list-style: none;
+    max-width: 1139.77px;
+    margin: 30px auto;
+    justify-content: center;
 }
 
  .section3-li:not(:last-of-type){ 
     margin-right: 105px;
 }
+
+.section5-div1{
+    margin: 90px 650px;
+}
+
+.section5-h1{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66px;
+}
+
+.section5-p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+}
+
+.images-grid{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.item:nth-child(3), .images-grid:nth-child(4){
+    grid-row: span 2;
+}
+
+.audience{
+    background-color: RGBA(175,238,238,0.37);
+}
+
+.audience-p1{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+    padding-top: 108px;
+}
+
+.audience-h1{
+    max-width: 555px;
+    margin: 24px auto;
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+}
+
+.audience-p2 { 
+    max-width: 555px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    margin: 30px auto;
+ }
+
+ 
+
+ .audience-b1{
+    border: none;
+    width: 160px;
+    height: 48px;
+    background-color: #3040C4;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    margin-top: 34px;
+    margin-left: 416px;
+ }
+
+ .audience-b2{
+    border: none;
+    width: 160px;
+    height: 48px;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 13px;
+    color: #000000;
+    margin-top: 34px;
+ }
+
+ .audience-grid {
+    margin: 111px auto;
+    display: inline-block;
+    align-items: center;
+ }
+
+ .audience-item:not(:last-of-type){
+    margin-right: 10px;
+ }
 

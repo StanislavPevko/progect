@@ -100,18 +100,18 @@ body{
     background-color: #4653cb;
 }
 
-.section1{
+.represent{
     background-color: #F3C6BD;
     padding: 71px 0 77px;
 }
 
-.section1-div1{
+.represent_section{
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.section1-h1{ 
+.represent_name{ 
     font-size: 80px;
     line-height: 78px;
     letter-spacing: -0.5px;
@@ -122,11 +122,11 @@ body{
     bottom: 247px;
 }
 
-.section1-div1 img{
+.represent_section img{
     padding-left: 557px;
 }
 
-.section1-p{
+.represent_text{
     font-size: 24px;
     line-height: 34px;
     color: #2B292D;
@@ -134,11 +134,11 @@ body{
     margin: 0 390px;
 }
 
-.button{
+.represent_buttons{
     margin: 58px 390px;
 }
 
-.section1-button1{
+.button1{
     width: 160px;
     height: 48px;
     border-radius: 2px;
@@ -150,7 +150,7 @@ body{
     color: #FFFFFF;
 }
 
-.section1-button2{
+.button2{
     width: 158px;
     height: 48px;
     border-radius: 2px;
@@ -162,13 +162,13 @@ body{
     color: #3040C4;
 }
 
-.section2{
+.questions{
     background-color: #F4F5F7;
     padding: 77px 0 76px;
 }
 
 
-.section2-div-p1, .section2-div-p2{
+.questions-text1, .questions-text2{
     font-weight: 400;
     font-size: 22px;
     line-height: 32px;
@@ -176,17 +176,17 @@ body{
     width: 555px;
 }
 
-.section2-div-p1 span, .section2-div-p2 span{
+.questions-text1 span, .questions-text2 span{
     font-weight: 700;
 }
 
-.section2-div{
+.questions-block{
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.section3-ul{
+.logos_list{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -196,22 +196,22 @@ body{
     justify-content: center;
 }
 
- .section3-li:not(:last-of-type){ 
+ .list_item:not(:last-of-type){ 
     margin-right: 105px;
 }
 
-.section5-div1{
+.grid_section{
     margin: 90px 650px;
 }
 
-.section5-h1{
+.section_name{
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
     text-align: center;
 }
 
-.section5-p{
+.section_text{
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;

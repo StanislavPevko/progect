@@ -200,22 +200,23 @@ body{
     margin-right: 105px;
 }
 
+
 .grid_section{
-    margin: 90px 650px;
+    text-align: center;
 }
 
 .section_name{
     font-weight: 700;
     font-size: 56px;
     line-height: 66px;
-    text-align: center;
 }
 
 .section_text{
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    text-align: center;
+    max-width: 554px;
+    margin: 26px auto 96px;
 }
 
 .images-grid{
@@ -307,6 +308,7 @@ body{
  .audience-grid-div:hover{
     background-color: #3040C4;
     cursor: pointer;
+    color: #FFFFFF;
  }
 
  .img-p{
@@ -314,10 +316,6 @@ body{
     font-size: 22px;
     line-height: 28px;
     text-align: center;
- }
-
- .img-p:hover{
-    color: #FFFFFF;
  }
 
  .audience-item{
@@ -432,6 +430,7 @@ body{
     color: #3040C4;
  }
 
+
  @media screen and (max-width: 1090px){
     .container{
         max-width: 750px;
@@ -542,10 +541,21 @@ body{
         max-width: 588px;
     }
 
+    .section_name{
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+
+    .grid_section{
+        margin: 0 317px;
+        text-align: center;
+    }
+
     .section_text{
-        width: 399px;
         font-size: 20px;
         line-height: 34px;
+        margin: 10px 0 85px;
     }
 
     .images-grid{
@@ -670,10 +680,34 @@ body{
     margin-bottom: 30px;
    }
 
+   .grid_section{
+    margin: 0 auto;
+   }
+
+   .section_name{
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    max-width: 326px;
+   }
+
+   .section_text{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    max-width: 303px;
+    margin-bottom: 25px;
+   }
+
+   .item{
+    max-width: 290px;
+   }
+
    .images-grid{
     grid-template-columns: 1fr;
     grid-template-rows: repeat(7, 1fr);
     gap: 17px;
+    margin: 0px 15px; 
    }
 
    .item:nth-child(3){
@@ -700,9 +734,13 @@ body{
 
 .logos_list{
     display: grid;
-    grid-template-columns: repeat(3, 0.1fr);
-    grid-template-rows: repeat(2, 0.1fr);
-    gap: 1% 1%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 1px 0px;
+} 
+
+.image_lo{
+    max-width: 77px;
 }
 
 .communicate{
@@ -753,9 +791,13 @@ body{
     grid-template-columns: none;
 }
 
+.section_name{
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+}
 
-
- @media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px){ 
     .container{
         max-width: 1040px;
     }
@@ -763,6 +805,9 @@ body{
     .ul{
         margin-right: 50px;
     }
-    
  }
- 
+
+
+
+
+

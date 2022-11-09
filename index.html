@@ -8,7 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css" integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./carusel.css">
     <title>Document</title>
 </head>
 <body>
@@ -35,7 +37,7 @@
                 <nav class="flex header_nav menu_all">
                     <ul class="ul flex flex_menu">
                          <li class="header-li header-link-underline1">
-                        <a href="#" class="header-link">Home</a>
+                        <a href="#" class="header-link" id="about_link">Home</a>
                          </li>
                         <li>
                         <a href="#" class="header-link header-link-underline2">Stories</a>
@@ -104,6 +106,46 @@
                         <img src="./Img/g.png" alt="logo"  class="image_lo">
                     </li>
                 </ul>
+        </section>
+        <section class="container">
+            <div class="carusel">
+                <div>
+                    <p>
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p>
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <p>
+                        Viella Malkovich
+                        Creative Director at Johnson
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p>
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <p>
+                        Viella Malkovich
+                        Creative Director at Johnson
+                    </p>
+                </div>
+                <div>
+                    <p>
+                        Trusted by the world’s most innovative businesses – big and small
+                    </p>
+                    <p>
+                        “Comprehensive set of startup tools for all imaginable entrepreneurial needs. Create landing pages, send emails, find freelancers. Perfect for sales, marketing, and support”
+                    </p>
+                    <p>
+                        Viella Malkovich
+                        Creative Director at Johnson
+                    </p>
+                </div>
+            </div>
         </section>
         <section class="feature">
             <img src="./Img/ouch.svg" alt="snake" class="snake-img">
@@ -288,7 +330,7 @@
                 </div>
             </div>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="container">
                 <div class="about_info">
                     <h2 class="about_title">
@@ -495,8 +537,14 @@
                 </p>
             </div>
         </div>
+        <div id="up">
+            <span>></span>
+        </div>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>">
+        <script src="./bxslider.js"></script>
         <script src="./script.js"></script>
         <script src="./modal.js"></script>
+        <script src="./upButton.js"></script>
 </body>
 </html>

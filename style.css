@@ -1116,6 +1116,30 @@ body{
     .item:nth-child(7){
         display: none;
     }
+
+    .bx-wrapper{
+        max-width: 750px;
+    }
+
+    .pretitle_1{
+        max-width: 573px;
+        margin: 0 auto;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .text_1{
+        max-width: 584px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+
+    .position{
+        max-width: 175px;
+        font-size: 16px;
+        line-height: 24px;
+        margin: 0 auto;
+    }
  }
 
  @media screen and (max-width: 800px){

@@ -1,4 +1,59 @@
 .bx-wrapper{
     text-align: center;
+    border: none;
+    height: 450px;
+    position: relative;
 }
 
+
+.bx-pager-link:hover{
+    color: #3142C5;
+}
+
+.pretitle_1{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    color: #3142C6;
+    margin-bottom: 28px;
+    
+}
+
+.text_1{
+    font-size: 24px;
+    line-height: 34px;
+    color: #2B292D;
+    max-width: 750px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 34px;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #2B292D;
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin-bottom: 38px;
+}
+
+
+.tree{
+    position: absolute;
+    right: 0;
+    top: 120px;
+    bottom: 0;
+}
+
+.carusel1{
+    height: 450px;
+}

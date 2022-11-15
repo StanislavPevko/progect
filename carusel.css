@@ -1,8 +1,9 @@
 .bx-wrapper{
     text-align: center;
-    border: none;
     height: 450px;
     position: relative;
+    border: none;
+    box-shadow: none;
 }
 
 
@@ -18,6 +19,7 @@
     margin-bottom: 28px;
     
 }
+
 
 .text_1{
     font-size: 24px;
@@ -57,3 +59,13 @@
 .carusel1{
     height: 450px;
 }
+
+.bx-wrapper .bx-pager {
+    position: absolute;
+    bottom: 20px;
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
+    background-color: #3142C6;
+}
+

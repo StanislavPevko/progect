@@ -730,7 +730,6 @@ body{
 .about-city{
     font-size: 18px;
     line-height: 24px;
-    color: #2B292D;
 }
 
 .about-text{
@@ -829,12 +828,17 @@ body{
 }
 
 .block1-title{
+    font-weight: bold;
     font-size: 22px;
     line-height: 26px;
-    color: #3142C6;
+    color: black;
     margin-left: 15px;
     cursor: pointer;
     margin-bottom: 5px;
+}
+
+.block1-title:hover{
+    color: #2e41e6;
 }
 
 .block1-text{

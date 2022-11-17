@@ -48,11 +48,15 @@
     margin-bottom: 38px;
 }
 
+.carusel{
+    position: relative;
+}
 
 .tree{
     position: absolute;
-    right: 0;
-    top: 120px;
+    right: 40%;
+    left: 68%;
+    top: 127%;
     bottom: 0;
 }
 
@@ -62,7 +66,8 @@
 
 .bx-wrapper .bx-pager {
     position: absolute;
-    bottom: 20px;
+    bottom: 157px;
+    right: 9px;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover, .bx-wrapper .bx-pager.bx-default-pager a.active, .bx-wrapper .bx-pager.bx-default-pager a:focus{
